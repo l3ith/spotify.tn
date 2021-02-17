@@ -1,0 +1,266 @@
+@font-face{font-family: 'ProximaNova';src: url('./fonts/ProximaNova-Regular.otf') format('opentype')}
+
+* {font-family: 'proximaNova';}
+.signin-button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+  width: 100px;
+ text-align: center;
+ transition: 0.7s;
+}
+body {
+    background-color: #fbfbfb;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100;
+    background-color: white;
+
+}
+.div-links{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-weight:700;
+}
+.div-links a {
+    text-decoration: none;
+    color: #9d9aa1;
+    transition:0.8s ; 
+    font-size: 17px;
+}
+header span img{
+    width: 25px;
+    height: 25px;
+}
+header span{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-links a:hover{
+    color: #070a0a;
+   
+}
+.signin-button:hover{
+    opacity: 0.7;
+}
+
+.theweekend{
+background-image:url('https://consequenceofsound.net/wp-content/uploads/2020/03/weeknd-after-hours-deluxe-artwork.jpeg?quality=80&w=807') ;
+background-repeat: no-repeat;
+background-size: cover;
+width: 180px;
+height: 244px;
+margin-right: 4px;
+border-top-left-radius: 5px; 
+border-bottom-left-radius: 5px; 
+}
+.g-easy{
+    background-image:url('https://img.discogs.com/UpyIWBK8YtB_8haKI-i-Uh8fws0=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-11835082-1523189122-5956.jpeg.jpg') ;
+background-repeat: no-repeat;
+background-size: cover;
+width:120px;
+height: 120px;
+
+border-bottom-right-radius: 5px; 
+
+}
+.eminem{
+    background-image:url('https://upload.wikimedia.org/wikipedia/en/8/80/Eminem_-_Music_to_Be_Murdered_By.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:120px;
+    height: 120px; 
+    margin-bottom: 4px;
+    border-top-right-radius: 5px; 
+}
+.trending-div{
+    display: flex;
+   
+   height: 250px;
+   
+}
+.play-btn{
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0,0.1);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+   font-size: 22px;
+   margin: 0 auto;
+  transform: translateY(-38px);
+}
+.container{
+   border-radius: 10px; 
+   border: solid 0.5px rgba(1,1,1,0.1);
+    padding: 20px;
+    height:500px ;
+    margin: 10px;
+background-color: white;
+
+
+}
+.main{
+    margin-top: 25px;
+    display:flex ;
+    justify-content: space-evenly;
+}
+.fa-play{
+    margin: 50%;
+}
+.playlist-discri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -20px;
+}
+.playlist-discri h2{
+    margin: 10px;
+}
+.songs{
+  overflow-y: scroll;
+    width: 800px;
+    height: 600px;
+    padding: 7px;
+}
+.song{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3d3d3d;
+    border: 25px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 51px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  #pbtn:hover{
+      cursor: pointer;
+      font-size: 18px;
+  }
+ #likePlaylist{
+   transition: 0.2s;
+   cursor: pointer;
+   font-size: 35px;
+ }
+ #likePlaylist:hover{
+   font-size: 38px;
+ }
+
+ .volume-lvl {
+  height: 28px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  background: none;
+}
+.volume-lvl:focus {
+  outline: none;
+}
+.volume-lvl::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #002200;
+  background: #666666;
+  border-radius: 1px;
+  border: 0px solid #18D501;
+}
+.volume-lvl::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #00AA00;
+  height: 15px;
+  width: 15px;
+  border-radius: 18px;
+  background: #3d3d3d;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+.volume-lvl::-moz-range-track {
+  width: 100%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #002200;
+  border-radius: 1px;
+  border: 0px solid #18D501;
+}
+.volume-lvl::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #00AA00;
+  border: 2px solid #080808;
+  height: 20px;
+  width: 20px;
+  border-radius: 18px;
+  background: #3d3d3d;
+  cursor: pointer;
+}
+.volume-lvl::-ms-track {
+  width: 100%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.volume-lvl::-ms-fill-lower {
+  border: 0px solid #18D501;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #002200;
+}
+.volume-lvl::-ms-fill-upper {
+  border: 0px solid #18D501;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #002200;
+}
+.volume-lvl::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #00AA00;
+  border: 2px solid #080808;
+  height: 20px;
+  width: 20px;
+  border-radius: 18px;
+  background: #050505;
+  cursor: pointer;
+}
